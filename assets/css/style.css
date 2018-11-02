@@ -278,3 +278,70 @@ a {
     display: block;
 }
 
+@media screen and (max-width: 1007px) {
+    .container,
+    .nav {
+        width: 680px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .container,
+    .nav {
+        width: 400px;
+    }
+
+    .nameheader {
+        display: none;
+    }
+
+    ul {
+        float: none;
+        margin: 0 auto;
+        width: 325px;
+    }
+
+    li:last-child {
+        padding: 0 20px;
+    }
+
+    .container img {
+        float: none;
+        margin: 0 74px;
+    }
+
+    .project {
+        margin: 15px auto;
+    }
+
+    .project img {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    
+    html,
+    body {
+        width: auto;
+    }
+    
+    .container,
+    .nav {
+        width: auto;
+    }
+    
+    .container img {
+        float: none;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .project {
+        margin: 15px auto;
+    }
+
+    .project img {
+        margin: 0;
+    }
+}
